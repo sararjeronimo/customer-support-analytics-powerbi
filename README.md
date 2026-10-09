@@ -47,14 +47,17 @@ Como os tempos de resolução foram simulados a partir da prioridade, e a priori
 Conclusão honesta: com os dados disponíveis, não é possível confirmar se existe uma relação real entre velocidade de resolução e satisfação do cliente. O valor de 0,76 deve ser lido como ilustração do método (como calcular e testar uma correlação, e como identificar quando um resultado pode ser enganador), não como uma descoberta definitiva sobre o comportamento dos clientes.
 
 Recomendações
-Registar a data de abertura real de cada ticket. Sem este campo, não é possível medir SLA de forma fiável nem isolar o efeito real do tempo de resolução sobre a satisfação — é a limitação mais importante a resolver antes de qualquer decisão operacional.
-Investigar porque tickets de baixa prioridade não têm pior satisfação, apesar de resolvidos mais lentamente — pode indicar que a gestão de expectativas (comunicação, transparência sobre prazos) importa tanto ou mais do que a velocidade pura.
-Não assumir que o tipo de ticket determina o tempo de resolução — os dados sugerem que a prioridade é o fator mais relevante; processos de melhoria devem ser desenhados a esse nível, não por categoria de assunto.
+Registar a data de abertura real de cada ticket. Sem este campo, não é possível medir SLA de forma fiável nem isolar o efeito real do tempo de resolução sobre a satisfação - é a limitação mais importante a resolver antes de qualquer decisão operacional.
+Investigar porque tickets de baixa prioridade não têm pior satisfação, apesar de resolvidos mais lentamente - pode indicar que a gestão de expectativas (comunicação, transparência sobre prazos) importa tanto ou mais do que a velocidade pura.
+Não assumir que o tipo de ticket determina o tempo de resolução - os dados sugerem que a prioridade é o fator mais relevante; processos de melhoria devem ser desenhados a esse nível, não por categoria de assunto.
 Monitorizar a distribuição de volume por canal/produto ao longo do tempo, já que atualmente está equilibrada — uma concentração súbita numa categoria seria um sinal de alerta a investigar.
+
 Limitações
 Tempos de resposta e resolução são simulados (ver secção "Dados e metodologia"), não observados.
-A correlação rating-tempo de resolução está sujeita a um possível efeito de confundimento via prioridade, não resolvido com os dados disponíveis.
-Dataset público e anonimizado — não reflete necessariamente padrões reais de um negócio específico.
+A correlação rating-tempo de resolução está sujeita a uma possível confusão via prioridade, não resolvida com os dados disponíveis.
+
+Dataset público e anónimo - não reflete necessariamente padrões reais de um negócio específico.
+
 Estrutura do repositório
 ├── README.md
 ├── customer-support-analytics.pbix
